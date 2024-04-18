@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width,initial-scale=1.0">
+        <title>Milutin's Web Tool</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Milutin's Web Tool</h1>
+            <input type="text" id ="textField" placeholder="Enter data">
+            <select id ="select">
+                <option value="factorial">Factorial</option>
+                <option value="reverse">Reverse Word</option>
+                <option value="uppercase">Uppercase</option>
+                <option value="loop">Loop Demo</option>
+            </select>
+            <button onclick="processing()">Submit</button>
+            <div id="outputArea"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+var selectedFunction = select.options[select.selectedIndex].value;

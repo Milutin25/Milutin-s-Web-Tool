@@ -1,0 +1,35 @@
+body {
+    font-family:Arial,sans-serif;
+}
+h1{
+    color:indianred; 
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+input, select, button {
+    margin: 10px;
+    padding: 5px; 
+}
+
+#outputArea {
+    margin-top: 40px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+}
