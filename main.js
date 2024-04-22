@@ -26,12 +26,14 @@ function processing() {
 }
 
 function factorial(num) {
-    if (num === 0 || num === 1)
+    if (num === 0 || num === 1){
         return 1;
-    for (let i =1; i <= num; i++) {
-        num *= i;
-    }
-    return num;
+    } else{
+        let sum = 1;
+        for(let i = 1; i <= num; i++) {
+        sum = sum * i;   
+    }return sum;
+    }  
 }
 
 function reverseString(str) {
