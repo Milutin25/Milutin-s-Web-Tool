@@ -14,12 +14,14 @@ h1{
 }
 input, select, button {
     margin: 10px;
-    padding: 5px; 
+    padding: 5px;
+    border-radius:5px; 
 }
 
 #outputArea {
     margin-top: 40px;
     border: 1px solid gray;
+    border-radius:3px;
     padding: 30px;
 }
 @media only screen and (max-width: 768px) {
@@ -32,4 +34,8 @@ input, select, button {
     .container {
         max-width: 90%;
     }
+}
+.invalid-input {
+    background-color:hsl(32, 100%, 50%);
+    border: 1px solid rgb(0, 0, 0);
 }
